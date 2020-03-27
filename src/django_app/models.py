@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here. there si stuff here too
 class Bear(models.Model):
     name = models.CharField(max_length=20)
     age = models.IntegerField()
